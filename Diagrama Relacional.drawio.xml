@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="n0hvb_w7nTgu1_I-rxW6">
+    <mxGraphModel dx="1768" dy="928" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="table-cliente" parent="1" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;              fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;              fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Cliente" vertex="1">
+          <mxGeometry height="150" width="310" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tc-pk" parent="table-cliente" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;              verticalAlign=top;spacingLeft=6;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=2;" value="PK  ID_Usuario INT" vertex="1">
+          <mxGeometry height="24" width="310" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tc-nom" parent="table-cliente" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;              verticalAlign=top;spacingLeft=6;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="    Nombres VARCHAR(100)" vertex="1">
+          <mxGeometry height="24" width="310" y="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tc-tel" parent="table-cliente" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;              verticalAlign=top;spacingLeft=6;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="    Teléfono VARCHAR(20)" vertex="1">
+          <mxGeometry height="24" width="310" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tc-rol" parent="table-cliente" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;              verticalAlign=top;spacingLeft=6;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="    Rol VARCHAR(50)" vertex="1">
+          <mxGeometry height="24" width="310" y="102" as="geometry" />
+        </mxCell>
+        <mxCell id="tc-email" parent="table-cliente" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;              verticalAlign=top;spacingLeft=6;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="    Correo_Electronico VARCHAR(100)" vertex="1">
+          <mxGeometry height="24" width="310" y="126" as="geometry" />
+        </mxCell>
+        <mxCell id="table-bici" parent="1" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;              fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;              fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Bicicleta" vertex="1">
+          <mxGeometry height="150" width="310" x="440" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tb-pk" parent="table-bici" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;              verticalAlign=top;spacingLeft=6;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=2;" value="PK  ID_Bicicleta INT" vertex="1">
+          <mxGeometry height="24" width="310" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tb-marca" parent="table-bici" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;              verticalAlign=top;spacingLeft=6;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="    Marca VARCHAR(50)" vertex="1">
+          <mxGeometry height="24" width="310" y="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tb-modelo" parent="table-bici" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;              verticalAlign=top;spacingLeft=6;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="    Modelo VARCHAR(50)" vertex="1">
+          <mxGeometry height="24" width="310" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tb-km" parent="table-bici" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;              verticalAlign=top;spacingLeft=6;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="    Km_Totales INT" vertex="1">
+          <mxGeometry height="24" width="310" y="102" as="geometry" />
+        </mxCell>
+        <mxCell id="tb-fk" parent="table-bici" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;              verticalAlign=top;spacingLeft=6;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" value="FK  ID_Usuario INT  → Cliente" vertex="1">
+          <mxGeometry height="24" width="310" y="126" as="geometry" />
+        </mxCell>
+        <mxCell id="table-comp" parent="1" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;              fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;              fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Componente" vertex="1">
+          <mxGeometry height="150" width="310" x="840" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tcomp-pk" parent="table-comp" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;              verticalAlign=top;spacingLeft=6;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=2;" value="PK  ID_Componente INT" vertex="1">
+          <mxGeometry height="24" width="310" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tcomp-tipo" parent="table-comp" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;              verticalAlign=top;spacingLeft=6;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="    Tipo_Pieza VARCHAR(100)" vertex="1">
+          <mxGeometry height="24" width="310" y="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tcomp-kmact" parent="table-comp" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;              verticalAlign=top;spacingLeft=6;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="    Km_Actuales INT" vertex="1">
+          <mxGeometry height="24" width="310" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tcomp-kmlim" parent="table-comp" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;              verticalAlign=top;spacingLeft=6;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="    Km_Limite INT" vertex="1">
+          <mxGeometry height="24" width="310" y="102" as="geometry" />
+        </mxCell>
+        <mxCell id="tcomp-fk" parent="table-comp" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;              verticalAlign=top;spacingLeft=6;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" value="FK  ID_Bicicleta INT  → Bicicleta" vertex="1">
+          <mxGeometry height="24" width="310" y="126" as="geometry" />
+        </mxCell>
+        <mxCell id="table-alerta" parent="1" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;              fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;              fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Alerta_SOS" vertex="1">
+          <mxGeometry height="150" width="310" x="40" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="ta-pk" parent="table-alerta" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;              verticalAlign=top;spacingLeft=6;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=2;" value="PK  ID_SOS INT" vertex="1">
+          <mxGeometry height="24" width="310" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ta-lat" parent="table-alerta" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;              verticalAlign=top;spacingLeft=6;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="    Latitud DECIMAL(10,8)" vertex="1">
+          <mxGeometry height="24" width="310" y="54" as="geometry" />
+        </mxCell>
+        <mxCell id="ta-lon" parent="table-alerta" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;              verticalAlign=top;spacingLeft=6;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="    Longitud DECIMAL(11,8)" vertex="1">
+          <mxGeometry height="24" width="310" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="ta-fecha" parent="table-alerta" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;              verticalAlign=top;spacingLeft=6;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="    Fecha_Hora DATETIME" vertex="1">
+          <mxGeometry height="24" width="310" y="102" as="geometry" />
+        </mxCell>
+        <mxCell id="ta-fk" parent="table-alerta" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;              verticalAlign=top;spacingLeft=6;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" value="FK  ID_Usuario INT  → Cliente" vertex="1">
+          <mxGeometry height="24" width="310" y="126" as="geometry" />
+        </mxCell>
+        <mxCell id="table-contacto" parent="1" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;              fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;              fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Contacto_Emergencia" vertex="1">
+          <mxGeometry height="130" width="310" x="440" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="tcon-pk" parent="table-contacto" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;              verticalAlign=top;spacingLeft=6;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=2;" value="PK  ID_Contacto INT" vertex="1">
+          <mxGeometry height="25" width="310" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tcon-nom" parent="table-contacto" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;              verticalAlign=top;spacingLeft=6;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="    Nombre_Emer VARCHAR(100)" vertex="1">
+          <mxGeometry height="25" width="310" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="tcon-tel" parent="table-contacto" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;              verticalAlign=top;spacingLeft=6;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="    Tel_Emergencia VARCHAR(20)" vertex="1">
+          <mxGeometry height="25" width="310" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tcon-fk" parent="table-contacto" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;              verticalAlign=top;spacingLeft=6;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" value="FK  ID_Usuario INT  → Cliente" vertex="1">
+          <mxGeometry height="25" width="310" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="table-mec" parent="1" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;              fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;              fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Mecánico" vertex="1">
+          <mxGeometry height="110" width="310" x="840" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="tmec-pk" parent="table-mec" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;              verticalAlign=top;spacingLeft=6;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=2;" value="PK  ID_Mecanico INT" vertex="1">
+          <mxGeometry height="27" width="310" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tmec-nom" parent="table-mec" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;              verticalAlign=top;spacingLeft=6;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="    Nombres VARCHAR(100)" vertex="1">
+          <mxGeometry height="26" width="310" y="57" as="geometry" />
+        </mxCell>
+        <mxCell id="tmec-esp" parent="table-mec" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;              verticalAlign=top;spacingLeft=6;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="    Especialidad VARCHAR(100)" vertex="1">
+          <mxGeometry height="27" width="310" y="83" as="geometry" />
+        </mxCell>
+        <mxCell id="table-rep" parent="1" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;              fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;              fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Repuesto" vertex="1">
+          <mxGeometry height="130" width="310" x="40" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="trep-pk" parent="table-rep" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;              verticalAlign=top;spacingLeft=6;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=2;" value="PK  ID_Repuesto INT" vertex="1">
+          <mxGeometry height="25" width="310" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="trep-nom" parent="table-rep" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;              verticalAlign=top;spacingLeft=6;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="    Nombre_Pieza VARCHAR(100)" vertex="1">
+          <mxGeometry height="25" width="310" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="trep-stock" parent="table-rep" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;              verticalAlign=top;spacingLeft=6;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="    Stock INT" vertex="1">
+          <mxGeometry height="25" width="310" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="trep-precio" parent="table-rep" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;              verticalAlign=top;spacingLeft=6;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="    Precio DECIMAL(10,2)" vertex="1">
+          <mxGeometry height="25" width="310" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="table-orden" parent="1" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;              fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;              fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Orden_Trabajo" vertex="1">
+          <mxGeometry height="210" width="310" x="440" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="tord-pk" parent="table-orden" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;              verticalAlign=top;spacingLeft=6;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=2;" value="PK  ID_Orden INT" vertex="1">
+          <mxGeometry height="26" width="310" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tord-fecha" parent="table-orden" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;              verticalAlign=top;spacingLeft=6;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="    Fecha DATE" vertex="1">
+          <mxGeometry height="25" width="310" y="56" as="geometry" />
+        </mxCell>
+        <mxCell id="tord-diag" parent="table-orden" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;              verticalAlign=top;spacingLeft=6;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="    Diagnóstico TEXT" vertex="1">
+          <mxGeometry height="26" width="310" y="81" as="geometry" />
+        </mxCell>
+        <mxCell id="tord-estado" parent="table-orden" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;              verticalAlign=top;spacingLeft=6;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="    Estado VARCHAR(50)" vertex="1">
+          <mxGeometry height="26" width="310" y="107" as="geometry" />
+        </mxCell>
+        <mxCell id="tord-costo" parent="table-orden" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;              verticalAlign=top;spacingLeft=6;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="    Costo_Total DECIMAL(10,2)" vertex="1">
+          <mxGeometry height="26" width="310" y="133" as="geometry" />
+        </mxCell>
+        <mxCell id="tord-fk1" parent="table-orden" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;              verticalAlign=top;spacingLeft=6;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" value="FK  ID_Bicicleta INT  → Bicicleta" vertex="1">
+          <mxGeometry height="25" width="310" y="159" as="geometry" />
+        </mxCell>
+        <mxCell id="tord-fk2" parent="table-orden" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;              verticalAlign=top;spacingLeft=6;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" value="FK  ID_Mecanico INT  → Mecánico" vertex="1">
+          <mxGeometry height="26" width="310" y="184" as="geometry" />
+        </mxCell>
+        <mxCell id="table-prov" parent="1" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;              fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;              fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Proveedor" vertex="1">
+          <mxGeometry height="110" width="310" x="840" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="tprov-pk" parent="table-prov" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;              verticalAlign=top;spacingLeft=6;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=2;" value="PK  ID_Proveedor INT" vertex="1">
+          <mxGeometry height="27" width="310" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tprov-nom" parent="table-prov" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;              verticalAlign=top;spacingLeft=6;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="    Nombre_Emp VARCHAR(100)" vertex="1">
+          <mxGeometry height="26" width="310" y="57" as="geometry" />
+        </mxCell>
+        <mxCell id="tprov-tel" parent="table-prov" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;              verticalAlign=top;spacingLeft=6;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="    Teléfono VARCHAR(20)" vertex="1">
+          <mxGeometry height="27" width="310" y="83" as="geometry" />
+        </mxCell>
+        <mxCell id="table-utiliza" parent="1" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;              fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;              fillColor=#e1d5e7;strokeColor=#9673a6;" value="Utiliza  (Orden_Trabajo ↔ Repuesto)" vertex="1">
+          <mxGeometry height="110" width="310" x="40" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="tu-fk1" parent="table-utiliza" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;              verticalAlign=top;spacingLeft=6;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" value="FK  ID_Orden INT  → Orden_Trabajo" vertex="1">
+          <mxGeometry height="27" width="310" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tu-fk2" parent="table-utiliza" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;              verticalAlign=top;spacingLeft=6;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" value="FK  ID_Repuesto INT  → Repuesto" vertex="1">
+          <mxGeometry height="26" width="310" y="57" as="geometry" />
+        </mxCell>
+        <mxCell id="tu-cant" parent="table-utiliza" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;              verticalAlign=top;spacingLeft=6;fillColor=#e1d5e7;strokeColor=#9673a6;" value="    Cantidad INT" vertex="1">
+          <mxGeometry height="27" width="310" y="83" as="geometry" />
+        </mxCell>
+        <mxCell id="table-oc" parent="1" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;              fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;              fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Orden_Compra" vertex="1">
+          <mxGeometry height="130" width="310" x="840" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="toc-pk" parent="table-oc" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;              verticalAlign=top;spacingLeft=6;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=2;" value="PK  ID_Compra INT" vertex="1">
+          <mxGeometry height="25" width="310" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="toc-fecha" parent="table-oc" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;              verticalAlign=top;spacingLeft=6;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="    Fecha DATE" vertex="1">
+          <mxGeometry height="25" width="310" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="toc-monto" parent="table-oc" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;              verticalAlign=top;spacingLeft=6;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="    Monto_Total DECIMAL(10,2)" vertex="1">
+          <mxGeometry height="25" width="310" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="toc-fk" parent="table-oc" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;              verticalAlign=top;spacingLeft=6;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" value="FK  ID_Proveedor INT  → Proveedor" vertex="1">
+          <mxGeometry height="25" width="310" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="table-incluye" parent="1" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;              fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;              fillColor=#e1d5e7;strokeColor=#9673a6;" value="Incluye  (Orden_Compra ↔ Repuesto)" vertex="1">
+          <mxGeometry height="110" width="310" x="440" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="ti-fk1" parent="table-incluye" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;              verticalAlign=top;spacingLeft=6;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" value="FK  ID_Compra INT  → Orden_Compra" vertex="1">
+          <mxGeometry height="27" width="310" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ti-fk2" parent="table-incluye" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;              verticalAlign=top;spacingLeft=6;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" value="FK  ID_Repuesto INT  → Repuesto" vertex="1">
+          <mxGeometry height="26" width="310" y="57" as="geometry" />
+        </mxCell>
+        <mxCell id="ti-cant" parent="table-incluye" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;              verticalAlign=top;spacingLeft=6;fillColor=#e1d5e7;strokeColor=#9673a6;" value="    Cantidad INT" vertex="1">
+          <mxGeometry height="27" width="310" y="83" as="geometry" />
+        </mxCell>
+        <mxCell id="table-factura" parent="1" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;              fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;              fillColor=#d5e8d4;strokeColor=#82b366;" value="Factura" vertex="1">
+          <mxGeometry height="190" width="310" x="1240" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="tfac-pk" parent="table-factura" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;              verticalAlign=top;spacingLeft=6;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=2;" value="PK  ID_Factura INT" vertex="1">
+          <mxGeometry height="20" width="310" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tfac-fecha" parent="table-factura" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;              verticalAlign=top;spacingLeft=6;fillColor=#d5e8d4;strokeColor=#82b366;" value="    Fecha DATE" vertex="1">
+          <mxGeometry height="20" width="310" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tfac-sub" parent="table-factura" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;              verticalAlign=top;spacingLeft=6;fillColor=#d5e8d4;strokeColor=#82b366;" value="    Subtotal DECIMAL(10,2)" vertex="1">
+          <mxGeometry height="20" width="310" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tfac-iva" parent="table-factura" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;              verticalAlign=top;spacingLeft=6;fillColor=#d5e8d4;strokeColor=#82b366;" value="    IVA DECIMAL(10,2)" vertex="1">
+          <mxGeometry height="20" width="310" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="tfac-total" parent="table-factura" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;              verticalAlign=top;spacingLeft=6;fillColor=#d5e8d4;strokeColor=#82b366;" value="    Total DECIMAL(10,2)" vertex="1">
+          <mxGeometry height="20" width="310" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="tfac-estado" parent="table-factura" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;              verticalAlign=top;spacingLeft=6;fillColor=#d5e8d4;strokeColor=#82b366;" value="    Estado VARCHAR(20)" vertex="1">
+          <mxGeometry height="20" width="310" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="tfac-fk1" parent="table-factura" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;              verticalAlign=top;spacingLeft=6;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" value="FK  ID_Orden INT  → Orden_Trabajo" vertex="1">
+          <mxGeometry height="20" width="310" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="tfac-fk2" parent="table-factura" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;              verticalAlign=top;spacingLeft=6;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" value="FK  ID_Usuario INT  → Cliente" vertex="1">
+          <mxGeometry height="20" width="310" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="rel-cli-bici" edge="1" parent="1" source="table-cliente" style="endArrow=ERone;endFill=0;startArrow=ERmany;startFill=0;              edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;              exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="table-bici" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel-cli-alerta" edge="1" parent="1" source="table-cliente" style="endArrow=ERone;endFill=0;startArrow=ERmany;startFill=0;              edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;              exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="table-alerta" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel-cli-contacto" edge="1" parent="1" source="table-cliente" style="endArrow=ERone;endFill=0;startArrow=ERmany;startFill=0;              edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;              exitX=1;exitY=0.8;entryX=0;entryY=0.5;" target="table-contacto" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="390" y="140" />
+              <mxPoint x="390" y="260" />
+              <mxPoint x="390" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel-bici-comp" edge="1" parent="1" source="table-bici" style="endArrow=ERone;endFill=0;startArrow=ERmany;startFill=0;              edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;              exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="table-comp" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel-bici-orden" edge="1" parent="1" source="table-bici" style="endArrow=ERone;endFill=0;startArrow=ERmany;startFill=0;              edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;              exitX=0.5;exitY=1;entryX=0;entryY=0.3;" target="table-orden" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="595" y="220" />
+              <mxPoint x="410" y="220" />
+              <mxPoint x="410" y="582" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel-mec-orden" edge="1" parent="1" source="table-mec" style="endArrow=ERone;endFill=0;startArrow=ERmany;startFill=0;              edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;              exitX=0;exitY=0.5;entryX=1;entryY=0.5;" target="table-orden" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="820" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel-ord-util" edge="1" parent="1" source="table-orden" style="endArrow=ERone;endFill=0;startArrow=ERmany;startFill=0;              edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;              exitX=0;exitY=0.7;entryX=1;entryY=0.5;" target="table-utiliza" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="410" y="665" />
+              <mxPoint x="410" y="815" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel-rep-util" edge="1" parent="1" source="table-rep" style="endArrow=ERone;endFill=0;startArrow=ERmany;startFill=0;              edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;              exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="table-utiliza" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel-prov-oc" edge="1" parent="1" source="table-prov" style="endArrow=ERone;endFill=0;startArrow=ERmany;startFill=0;              edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;              exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="table-oc" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel-oc-inc" edge="1" parent="1" source="table-oc" style="endArrow=ERone;endFill=0;startArrow=ERmany;startFill=0;              edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;              exitX=0;exitY=0.5;entryX=1;entryY=0.5;" target="table-incluye" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel-rep-inc" edge="1" parent="1" source="table-rep" style="endArrow=ERone;endFill=0;startArrow=ERmany;startFill=0;              edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;              exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="table-incluye" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="390" y="605" />
+              <mxPoint x="390" y="865" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel-ord-fac" edge="1" parent="1" source="table-orden" style="endArrow=ERone;endFill=0;startArrow=ERmany;startFill=0;              edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;              exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="table-factura" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="820" y="680" />
+              <mxPoint x="1170" y="680" />
+              <mxPoint x="1200" y="625" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel-cli-fac" edge="1" parent="1" source="table-cliente" style="endArrow=ERone;endFill=0;startArrow=ERmany;startFill=0;              edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;              exitX=1;exitY=0.3;entryX=0.5;entryY=0;" target="table-factura" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="20" />
+              <mxPoint x="1240" y="20" />
+              <mxPoint x="1390" y="20" />
+              <mxPoint x="1395" y="100" />
+              <mxPoint x="1395" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
